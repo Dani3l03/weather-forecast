@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    background: linear-gradient(190deg, #ffa500 0%, #0051ff 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hide {
+    display: none;
+}
+
+.weather-container{
+    background: #e38e00;
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 3px 8px;
+    padding: 2rem;
+    color: #fdfdfd;
+    border-radius: 1rem;
+}
+
+.form h3{
+    margin-bottom: 1rem;
+
+}
+
+.form-input{
+    display: flex;
+}
+
+.form input{
+    padding:1rem;
+    border: none;
+    flex: 1;
+    border-radius: 6px;
+}
+
+.form button{
+    padding: 1rem;
+    min-width: 50px;
+    margin-left: 8px;
+    background-color: #0051ff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#weather{
+    border-top: 1px solid #fff;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
+
+#weather h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+#weather h2 i {
+    font-size: 1rem;
+}
+
+#weather h2 span{
+    margin: 0.6rem;
+}
+
+#country {
+    height: 40px;
+}
+
+#description{
+    font-weight: 900;
+}
+
+#description-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .6rem 0;
+}
+
+#details-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#details-container #umidade{
+    border-right: 1px solid #fff;
+    margin: .6rem;
+    padding: .6rem;
+    display: flex;
+    gap: 30px;
+}
+
+#details-container #vento{
+    display: flex;
+    gap: 20px;
+}
+
+#msg-error{
+    font-size: 18px;
+    border-top: 1px solid #fff;
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+}
